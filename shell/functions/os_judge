@@ -9,4 +9,7 @@
 #####################################
 
 function osName(){
+
+    echo "you input is:" $1
+    uname -a
 }
