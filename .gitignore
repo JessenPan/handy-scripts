@@ -10,3 +10,25 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+.idea/
+
+.setttings
+
+.project
+
+### gitingore_template template
+.classpath
+.settings/
+*/.classpath
+*/.gitignore
+*/.project
+*/.settings/
+bin/
+*/bin/
+target/
+*/target/
+*~
+*.bak
+.iml
+*/.idea/
