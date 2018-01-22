@@ -19,6 +19,7 @@ then
     frequency="$2"
 fi
 
+## 获取cpu总的时间点
 function getTotalCpuTime(){
 
     statLine1=`head -n 1 /proc/stat`
@@ -36,6 +37,7 @@ function getTotalCpuTime(){
     echo $totalCpuTime;
 }
 
+## 获取单个进程的cpu时间点
 function getProcCpuTime(){
 
     pidStatLine1=`head -n 1 /proc/$pid/stat`
