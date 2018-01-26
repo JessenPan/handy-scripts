@@ -14,9 +14,11 @@ fi
 
 pid=$1
 
+frequency=1
+
 if [ -n "$2" ] && [ $2 -gt 1 ]
 then
-    frequency="$2"
+    frequency=$2
 fi
 
 ## 获取cpu总的时间点
